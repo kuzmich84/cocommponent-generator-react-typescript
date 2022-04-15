@@ -44,7 +44,7 @@ module.exports = (name) => {
 
 const component = (componentName) =>
     `import React from 'react'
-import { ${componentName}Props } from './I${componentName}.props'
+import { I${componentName}Props } from './I${componentName}.props'
 import styles from './${componentName}.module.css'
 
 function ${componentName} ({...props}: I${componentName}Props): JSX.Element {
