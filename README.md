@@ -8,7 +8,7 @@ Based on packet ["react-typescript-component-generator"](https://www.npmjs.com/p
 * Global installation
   ```bash
   # Using yarn package manager
-  $ yarn global add react-typescript-component-generator
+  $ yarn global add component-generator-react-ts
 
   # Using npm package manager
   $ npm install --global component-generator-react-ts
