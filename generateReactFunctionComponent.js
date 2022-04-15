@@ -16,7 +16,7 @@ module.exports = (name) => {
             const componentName = name.slice(name.lastIndexOf('/') + 1)
 
             const componentFile = `${name}/${componentName}.tsx`
-            const propsInterfaceFile = `${name}/${componentName}.props.ts`
+            const propsInterfaceFile = `${name}/I${componentName}.props.ts`
             const stylesFile = `${name}/${componentName}.module.css`
 
             fs.appendFile(componentFile, component(componentName), (err) => {
@@ -44,7 +44,7 @@ module.exports = (name) => {
 
 const component = (componentName) =>
     `import React from 'react'
-import { ${componentName}Props } from './${componentName}.props'
+import { ${componentName}Props } from './I${componentName}.props'
 import styles from './${componentName}.module.css'
 
 function ${componentName} ({...props}: ${componentName}Props): JSX.Element {
