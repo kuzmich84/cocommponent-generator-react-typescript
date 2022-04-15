@@ -1,6 +1,8 @@
 # React Typescript Component Generator
 
-React Typescript Component Generator is a cli for generating react component for typescript based architucture.
+React Typescript Component Generator is a cli for generating react component for typescript based architecture.  
+
+Based on packet ["react-typescript-component-generator"](https://www.npmjs.com/package/react-typescript-component-generator) "Hafeez Hamza <hafeez1042@gmail.com>"   
 
 ## Install
 * Global installation
