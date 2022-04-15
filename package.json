@@ -1,6 +1,6 @@
 {
   "name": "component-generator-react-ts",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "creat component for your react-typescript app",
   "main": "index.js",
   "bin": {

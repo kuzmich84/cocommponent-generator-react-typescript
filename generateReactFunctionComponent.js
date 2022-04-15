@@ -47,7 +47,7 @@ const component = (componentName) =>
 import { ${componentName}Props } from './I${componentName}.props'
 import styles from './${componentName}.module.css'
 
-function ${componentName} ({...props}: ${componentName}Props): JSX.Element {
+function ${componentName} ({...props}: I${componentName}Props): JSX.Element {
   return (
     <div>${componentName}</div>
   );
@@ -57,7 +57,7 @@ export default ${componentName}
 `
 
 const propsInterface = (componentName) =>
-    `export interface ${componentName}Props {}
+    `export interface I${componentName}Props {}
 `
 
 const styles = (componentName) =>
