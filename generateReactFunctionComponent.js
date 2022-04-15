@@ -47,7 +47,7 @@ const component = (componentName) =>
 import { ${componentName}Props } from './${componentName}.props'
 import styles from './${componentName}.module.css'
 
-const ${componentName} = ({...props}: ${componentName}Props): JSX.Element => {
+function ${componentName} ({...props}: ${componentName}Props): JSX.Element {
   return (
     <div>${componentName}</div>
   );
